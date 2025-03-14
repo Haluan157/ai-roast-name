@@ -1,0 +1,50 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pnpm-error.log*
+
+# Output build
+dist/
+build/
+.next/
+out/
+.vite/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Editor & OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Log files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Bun
+.bun/
+
+# Testing
+coverage/
+.jest/
+
+# Database
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
